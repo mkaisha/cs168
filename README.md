@@ -4,9 +4,9 @@ Outcome Prediction from CTA in Acute Ischemic Stroke
 
 # Team members
 
-Keano Zamora
-Joshua Young
-Kaisha Maimaitiyimingjiang
+*Keano Zamora
+*Joshua Young
+*Kaisha Maimaitiyimingjiang
 
 ## Getting Started
 
@@ -14,9 +14,9 @@ These introduction will give you a idea how to run it your local machine to gene
 
 ### Prerequisites
 
-Matlab
-Jupyter notebook
-Stroke Patient CTP DICOM image files 
+*Matlab
+*Jupyter notebook
+*Stroke Patient CTP DICOM image files 
 
 
 ## preProcessCTP2.m and preProcessCTP_test2.m
@@ -25,13 +25,15 @@ Provided by Professor Fabien Scalzo, which is used to read CTP DICOM image files
 acquisition and re-order them with respect to slice location and time, and rescale
 the image intensity.
 
-Run on with Matlab by following command: "[img, meta] = preProcessCTP(imagePath, options)"
-
-Input:
+Run on with Matlab by following command: 
+```
+"[img, meta] = preProcessCTP(imagePath, options)"
+```
+*Input:
 imagePath: path to input images CTP, DICOM format
 options: ".dcm"
 
-Output:
+*Output:
 img: 4D Array of the image (row,column,height,time) 
 meta: struct value in Matlab with <time> Acquisition time of each slice and <location> Position
        of each slice along the Z-axis
