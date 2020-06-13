@@ -84,6 +84,6 @@ function [img, meta] = preProcessCTP(imagePath, options)
     
 end
     
-    
-    
+
+
     
