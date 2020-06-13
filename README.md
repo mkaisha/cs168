@@ -4,9 +4,9 @@ Outcome Prediction from CTA in Acute Ischemic Stroke
 
 # Team members
 
-*Keano Zamora
-*Joshua Young
-*Kaisha Maimaitiyimingjiang
+Keano Zamora\
+Joshua Young\
+Kaisha Maimaitiyimingjiang
 
 ## Getting Started
 
@@ -27,14 +27,14 @@ the image intensity.
 
 Run on with Matlab by following command: 
 ```
-"[img, meta] = preProcessCTP(imagePath, options)"
+[img, meta] = preProcessCTP(imagePath, options)
 ```
-*Input:
-imagePath: path to input images CTP, DICOM format
+**Input**:
+imagePath: path to input images CTP, DICOM format\
 options: ".dcm"
 
-*Output:
-img: 4D Array of the image (row,column,height,time) 
+**Output**:
+img: 4D Array of the image (row,column,height,time) \
 meta: struct value in Matlab with <time> Acquisition time of each slice and <location> Position
        of each slice along the Z-axis
 
