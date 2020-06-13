@@ -25,7 +25,7 @@ Provided by Professor Fabien Scalzo, which is used to read CTP DICOM image files
 acquisition and re-order them with respect to slice location and time, and rescale
 the image intensity.
 
-Run on with Matlab by following command: 
+Run with Matlab by following command: 
 ```
 [img, meta] = preProcessCTP(imagePath, options)
 ```
@@ -38,13 +38,20 @@ img: 4D Array of the image (row,column,height,time) \
 meta: struct value in Matlab with <time> Acquisition time of each slice and <location> Position
        of each slice along the Z-axis
 
-### Break down into end to end tests
+### resampleCTP.m and resampleCTP_test.m
+Provided by Professor Fabien Scalzo, which is used to resize & interpolate files by modifying their time dimension into 60 time points. 
 
-Explain what these tests test and why
+Run with Matlab by following command: 
+```
+resampledImg = resampleCTP(img, meta, options)
+```
+**Input**:\
+img: Input image CTP; 4D. \
+meta: DICOM Tags for CTP image (time is required, which generate by preProcessCTP2).\ 
+options: ".mat"
 
-```
-Give an example
-```
+**Output**:\
+resampledImg:  4D array (3D + time) in size of 128x128x20x60
 
 ### And coding style tests
 
