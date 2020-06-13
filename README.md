@@ -14,9 +14,9 @@ These introduction will give you a idea how to run it your local machine to gene
 
 ### Prerequisites
 
-*Matlab
-*Jupyter notebook
-*Stroke Patient CTP DICOM image files 
+Matlab\
+Jupyter notebook\
+Stroke Patient CTP DICOM image files
 
 
 ## preProcessCTP2.m and preProcessCTP_test2.m
@@ -29,11 +29,11 @@ Run on with Matlab by following command:
 ```
 [img, meta] = preProcessCTP(imagePath, options)
 ```
-**Input**:
+**Input**:\
 imagePath: path to input images CTP, DICOM format\
 options: ".dcm"
 
-**Output**:
+**Output**:\
 img: 4D Array of the image (row,column,height,time) \
 meta: struct value in Matlab with <time> Acquisition time of each slice and <location> Position
        of each slice along the Z-axis
