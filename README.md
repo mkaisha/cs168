@@ -38,7 +38,7 @@ img: 4D Array of the image (row,column,height,time) \
 meta: struct value in Matlab with <time> Acquisition time of each slice and <location> Position
        of each slice along the Z-axis
 
-### resampleCTP.m and resampleCTP_test.m
+## resampleCTP.m and resampleCTP_test.m
 Provided by Professor Fabien Scalzo, which is used to resize & interpolate files by modifying their time dimension into 60 time points. 
 
 Run with Matlab by following command: 
