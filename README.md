@@ -2,7 +2,7 @@
 
 Outcome Prediction from CTA in Acute Ischemic Stroke
 
-# Teammember
+# Team members
 
 Keano Zamora
 Joshua Young
@@ -10,37 +10,31 @@ Kaisha Maimaitiyimingjiang
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These introduction will give you a idea how to run it your local machine to generate the prediction model that we have.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Matlab
+Jupyter notebook
+Stroke Patient CTP DICOM image files 
 
-```
-Give examples
-```
 
-### Installing
+## preProcessCTP2.m and preProcessCTP_test2.m
 
-A step by step series of examples that tell you how to get a development env running
+Provided by Professor Fabien Scalzo, which is used to read CTP DICOM image files of an
+acquisition and re-order them with respect to slice location and time, and rescale
+the image intensity.
 
-Say what the step will be
+Run on with Matlab by following command: "[img, meta] = preProcessCTP(imagePath, options)"
 
-```
-Give the example
-```
+Input:
+imagePath: path to input images CTP, DICOM format
+options: ".dcm"
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
+Output:
+img: 4D Array of the image (row,column,height,time) 
+meta: struct value in Matlab with <time> Acquisition time of each slice and <location> Position
+       of each slice along the Z-axis
 
 ### Break down into end to end tests
 
@@ -87,3 +81,5 @@ See also the list of [contributors](https://github.com/your/project/contributors
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
+
+Thanks to Professor Fabien Scalzo at University of California, Los Angeles for providing training data and giving support as well as the project idea.
