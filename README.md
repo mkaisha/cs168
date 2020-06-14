@@ -18,6 +18,11 @@ Matlab\
 Jupyter notebook\
 Stroke Patient CTP DICOM image files
 
+## Process
+
+1. Using preProcessCTP2.m to sort the give .doc files
+2. Resize step 1's 4D Array output with scikit_resize .ipynb
+3. Resize & interpolate step 2's with resampleCTP.m
 
 ### preProcessCTP2.m and preProcessCTP_test2.m
 
