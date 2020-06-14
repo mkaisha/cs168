@@ -3,7 +3,7 @@ from scipy.io import savemat
 import skimage
 from skimage import transform
 from skimage.transform import rescale
-for i in range(2,47):
+for i in range(2,47): #input file 1 is brokon, so we do not have img1.mat
     if i != 7: #img7.mat was broken
         index = str(i)
         modified = 'modified'
