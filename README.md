@@ -56,7 +56,7 @@ resampledImg = resampleCTP(img, meta, options)
 ```
 **Input**:\
 img: Input image CTP; 4D. \
-meta: DICOM Tags for CTP image (time is required, which generate by preProcessCTP2) \ 
+meta: DICOM Tags for CTP image (time is required, which generate by preProcessCTP2 \
 options: ".mat"
 
 **Output**:\
