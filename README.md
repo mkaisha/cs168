@@ -16,7 +16,7 @@ These introduction will give you a idea how to run it your local machine to gene
 
 Matlab\
 Jupyter notebook\
-Stroke Patient CTP DICOM image files\
+Stroke Patient CTP DICOM image files
 
 ### Python Dependencies
 Numpy\
@@ -24,7 +24,7 @@ Matplotlib\
 Tensorflow/Keras\
 Scipy\
 Pandas\
-Sklearn\
+Sklearn
 
 ## Process
 
