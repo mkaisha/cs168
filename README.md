@@ -24,6 +24,8 @@ Stroke Patient CTP DICOM image files
 2. Resize step 1's 4D Array output with scikit_resize .ipynb
 3. Resize & interpolate step 2's with resampleCTP.m
 
+## Files
+
 ### preProcessCTP2.m and preProcessCTP_test2.m
 
 Provided by Professor Fabien Scalzo, which is used to read CTP DICOM image files of an
