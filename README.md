@@ -87,6 +87,8 @@ Ensure all prerequisites are installed and all filepaths in this program point c
 
 This program loads all preprocessed data with their labels, generates training and test sets, trains our base cnn, and reports the results of that training.
 
+some code from this file are adapted from TA Abdullah-Al-Zubear Imran's discussion in CS 168 at UCLA
+
 # Acknowledgments
 
-Thanks to Professor Fabien Scalzo at University of California, Los Angeles for providing training data, part of our preprocessing code, and suggestions for constructing and improving our model as well as the project idea.
+Thanks to Professor Fabien Scalzo at University of California, Los Angeles for providing training data, part of our preprocessing code, and suggestions for constructing and improving our model as well as the project idea, and also thanks to the TA Abdullah-Al-Zubear Imran for his part of CNN code and inspiration.
