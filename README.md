@@ -15,7 +15,7 @@ These introduction will give you a idea how to run it your local machine to gene
 ### Prerequisites
 
 Matlab\
-Jupyter notebook\
+Python3\
 Stroke Patient CTP DICOM image files
 
 ### Python Dependencies
@@ -24,13 +24,16 @@ Matplotlib\
 Tensorflow/Keras\
 Scipy\
 Pandas\
-Sklearn
+Sklearn\
+skimage\
+scipy.io 
 
 ## Process
 
 1. Using preProcessCTP2.m to sort the given .doc files
 2. Resize step 1's 4D Array output with scikit_resize.py
 3. Resize & interpolate step 2's with resampleCTP.m
+4. input the 4D array from the step 3 into cnn.py to generate the model
 
 ## Files
 
