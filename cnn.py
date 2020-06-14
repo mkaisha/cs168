@@ -39,13 +39,13 @@ from keras.utils import to_categorical
 # Binarize the class matrices for Class 1: mRS 0-3 and Class 2: mRS 4-7. This is what the base model uses
 targets_train = []
 for target in t_train:
-    if target < 3:
+    if target <= 3:
         targets_train += [[1,0]]
     else:
         targets_train += [[0,1]]
 targets_test = []
 for target in t_test:
-    if target < 3:
+    if target <= 3:
         targets_test += [[1,0]]
     else:
         targets_test += [[0,1]]
