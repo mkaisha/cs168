@@ -8,17 +8,17 @@ Keano Zamora\
 Joshua Young\
 Kaisha Maimaitiyimingjiang
 
-## Getting Started
+# Getting Started
 
 These introduction will give you a idea how to run it your local machine to generate the prediction model that we have.
 
-### Prerequisites
+## Prerequisites
 
 Matlab\
 Python3\
 Stroke Patient CTP DICOM image files
 
-### Python Dependencies
+## Python Dependencies
 Numpy\
 Matplotlib\
 Tensorflow/Keras\
@@ -28,7 +28,7 @@ Sklearn\
 skimage\
 scipy.io 
 
-## Process
+# Process
 
 1. Using preProcessCTP2.m to sort the given .doc files
 2. Resize step 1's 4D Array output with scikit_resize.py
@@ -87,6 +87,6 @@ Ensure all prerequisites are installed and all filepaths in this program point c
 
 This program loads all preprocessed data with their labels, generates training and test sets, trains our base cnn, and reports the results of that training.
 
-## Acknowledgments
+# Acknowledgments
 
 Thanks to Professor Fabien Scalzo at University of California, Los Angeles for providing training data, part of our preprocessing code, and suggestions for constructing and improving our model as well as the project idea.
