@@ -19,12 +19,12 @@ Jupyter notebook\
 Stroke Patient CTP DICOM image files\
 
 ### Python Dependencies
-Numpy
-Matplotlib
-Tensorflow/Keras
-Scipy
-Pandas
-Sklearn
+Numpy\
+Matplotlib\
+Tensorflow/Keras\
+Scipy\
+Pandas\
+Sklearn\
 
 ## Process
 
@@ -86,4 +86,4 @@ This program loads all preprocessed data with their labels, generates training a
 
 ## Acknowledgments
 
-Thanks to Professor Fabien Scalzo at University of California, Los Angeles for providing training data and giving support as well as the project idea.
+Thanks to Professor Fabien Scalzo at University of California, Los Angeles for providing training data, part of our preprocessing code, and suggestions for constructing and improving our model as well as the project idea.
